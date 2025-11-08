@@ -1,0 +1,10 @@
+{
+  "extends": "./playground/.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "nuxt-email-layer": ["./layer"],
+      "nuxt-email-layer/*": ["./layer/*"]
+    }
+  }
+}
